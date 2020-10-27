@@ -1,0 +1,7 @@
+body{ /* Este azul en la mayor parte porque es el color representativo de la empresa */
+  background-color: #2c85c1;
+}
+
+#servicios, #redes, #contacto{ /* Pongo en naranja para que se diferencien los divs */
+  background-color: orange;
+}
