@@ -2,6 +2,41 @@ body{ /* Este azul en la mayor parte porque es el color representativo de la emp
   background-color: #2c85c1;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links{
+float: right;
+}
 #servicios, #redes, #contacto{ /* Pongo en naranja para que se diferencien los divs */
   background-color: orange;
+}
+.menu{
+  display: flex;
+}
+ul li{
+  list-style: none;
+  
+
+
+
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 15px;
+
+}
+a:hover{
+  background: #4888d6;
+}
+.logo{
+  float: left;
+}
+input{
+  display: block;
 }
