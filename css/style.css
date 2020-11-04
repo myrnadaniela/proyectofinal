@@ -19,10 +19,9 @@ float: right;
 }
 ul li{
   list-style: none;
-  
-
-
-
+}
+ul{
+  display: flex;
 }
 
 a{
