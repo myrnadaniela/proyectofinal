@@ -20,6 +20,8 @@ float: right;
 ul li{
   list-style: none;
   margin:20px;
+  font-size: 20px;
+  color: #000;
 }
 ul{
   display: flex;
@@ -29,7 +31,7 @@ a{
   text-decoration: none;
   padding: 10px;
   margin-top: 15px;
-
+  color: #fff;
 }
 a:hover{
   background: #4888d6;
@@ -39,4 +41,62 @@ a:hover{
 }
 input{
   display: block;
+}
+
+/*Footer*/
+
+footer div{
+  padding: 20px 0;
+}
+
+footer div h3{
+  font-size: 34px;
+  text-align: center;
+}
+
+.formulario{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+  border:2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color:#a4a4a4;
+  margin: 15px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"]{
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+.formulario textarea{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px; 
+}
+
+.formulario .boton{
+  margin: auto;
+  background: #c4c4c4;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+.formulario .boton:hover{
+ 
+  background: #a4a4a4;
+   font-size: 20px;
+  
 }
